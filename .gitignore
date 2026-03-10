@@ -1,6 +1,9 @@
 # Data
 data/raw/
-*.download 
+*.download
+
+# Vector store index (large binary - rebuild locally with: python src/ingest.py)
+vectorstore/faiss_index/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
